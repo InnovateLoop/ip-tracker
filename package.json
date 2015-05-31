@@ -1,0 +1,30 @@
+{
+  "name": "ip-tracker",
+  "version": "0.0.1",
+  "description": "Performs simple lookup to find approximate coordinates while given an ip address.",
+  "main": "trackByIP.node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InnovateLoop/ip-tracker"
+  },
+  "keywords": [
+    "ip",
+    "track",
+    "tracker",
+    "coordinate",
+    "lookup",
+    "address"
+  ],
+  "author": "Roshan Ravi <roshan.ravi@innovateloop.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InnovateLoop/ip-tracker/issues"
+  },
+  "homepage": "https://github.com/InnovateLoop/ip-tracker",
+  "dependencies": {
+    "maxmind-db-reader": "^0.1.1"
+  }
+}
