@@ -11,7 +11,8 @@ var tracker = require('ip-tracker');
 tracker('52.64.32.34'); 
 
 Returns Object in format
-    return {
+
+    {
         latitude: 72,
         longitude: 43
-    };
+    }
